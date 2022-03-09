@@ -24,7 +24,7 @@ const load = async () => {
 };
 
 const movePlayers = (attacker, defender) => {        // Fix if implimented on larger server, will crash if 2 ppl input at same time 
-  //CREATE A NEW CATEGORY AT SOME POINT FOR 1V1 CHANNELS, currently just makes a shit ton of channels at the top of discord looks super fucking ugly
+  //CREATE A NEW CATEGORY AT SOME POINT FOR 1V1 CHANNELS, currently just makes a  ton of channels at the top of discord looks super fucking ugly
   const guild = attacker.guild;
   const list = [];
   for (const key in guild.channels.cache) {
@@ -126,7 +126,7 @@ client.on('voiceStateUpdate', async oldState  => {
   }
 });
 // filter: msg => msg.content.toLowerCase() === 'yes' || msg.content.toLowerCase() === 'no' ,
-client.login('ODcwNDY5ODczODU0MTkzNjg0.YQNOPg.wVLdC1VZHFLSoUzH2u_8qd2vV5Q');
+client.login('Login key (removed for privacy)');
 
 class GuildInfo {
   constructor (guildId, rankChannel) {
@@ -202,7 +202,7 @@ console.log(expectedScoreA, expectedScoreB);
 
 // come up with lol rank icons, react your rank in disc get an elo generated in program.
 
-// set admin command so in disc I can change someones ELO for fucking friends
+// set admin command so in disc I can change someones ELO for  friends
 
 // generate a math equation to calcuale leaderboard stats on wins losees etc.
 
@@ -214,7 +214,7 @@ console.log(expectedScoreA, expectedScoreB);
 
 // use relational database for player data
 
-// Invite link https://discord.com/api/oauth2/authorize?client_id=870469873854193684&permissions=8&scope=bot
+
 
 
 
